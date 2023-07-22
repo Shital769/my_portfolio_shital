@@ -78,6 +78,11 @@ i.fa-figma {
   /* text-fill-color: transparent; */
 }
 
+i.fa-html5:hover {
+  transform: scale(1.5);
+  transition: all 0.9s ease-out;
+}
+
 i.fa-react {
   color: #508bf2;
 }
@@ -85,3 +90,109 @@ i.fa-react {
 i.fa-node {
   color: #89b087;
 }
+
+/* Projects */
+
+.projects {
+  background-color: var(--bg-color);
+  padding: 32px 0;
+  margin-top: 2rem;
+}
+
+.project-pic {
+  width: 100%;
+  height: 60%;
+  border-radius: 95px;
+}
+
+.project-pic:hover {
+  border-radius: 10;
+}
+
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: all 0.6s ease;
+  
+}
+
+.project-container:hover {
+  border-radius: 95px;
+  text-transform: inherit;
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  
+}
+
+.projects-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.project-container {
+  text-align: center;
+  width: 21.875rem;
+  padding: 1rem;
+}
+
+.project-container p {
+  padding: 0.4rem;
+}
+
+.project-title {
+  margin-bottom: var(--bottom-margin);
+}
+
+.project-details {
+  margin-bottom: var(--bottom-margin);
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px rgba(95, 67, 237, 0.824);
+  padding: 20px;
+  margin: 10px;
+}
+
+.effectForLink {
+    background-image: linear-gradient(
+      to right,
+      #54b3d6,
+      #54b3d6 50%,
+      #5b05effe 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .effectForLink:before{
+    content: '';
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .effectForLink:hover {
+   background-position: 0;
+  }
+  
+  .effectForLink:hover::before{
+    width: 100%;
+  }
+  
+  
