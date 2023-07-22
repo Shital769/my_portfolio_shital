@@ -115,7 +115,6 @@ i.fa-node {
   justify-content: space-between;
   cursor: pointer;
   transition: all 0.6s ease;
-  
 }
 
 .project-container:hover {
@@ -123,7 +122,6 @@ i.fa-node {
   text-transform: inherit;
   transform: scale(1.1);
   transition: all 0.5s ease-in-out;
-  
 }
 
 .projects-title {
@@ -158,41 +156,118 @@ i.fa-node {
 }
 
 .effectForLink {
-    background-image: linear-gradient(
-      to right,
-      #54b3d6,
-      #54b3d6 50%,
-      #5b05effe 50%
-    );
-    background-size: 200% 100%;
-    background-position: -100%;
-    display: inline-block;
-    padding: 5px 0;
-    position: relative;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: all 0.3s ease-in-out;
+  background-image: linear-gradient(
+    to right,
+    #54b3d6,
+    #54b3d6 50%,
+    #5b05effe 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.effectForLink:before {
+  content: "";
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.effectForLink:hover {
+  background-position: 0;
+}
+
+.effectForLink:hover::before {
+  width: 100%;
+}
+
+.more-about {
+  background-color: var(--bg-color);
+  padding: 1rem 6rem;
+}
+
+.more-about h2 {
+  margin-bottom: var(--bottom-margin);
+  text-align: center;
+}
+
+.more-about p {
+  line-height: var(--line-height);
+  padding: 0.4rem;
+}
+
+.contact {
+  margin-top: 2rem;
+}
+
+.contact h2 {
+  text-align: center;
+  /* margin-bottom: var(--bottom-margin-2); */
+  margin-bottom: 10px;
+}
+
+.contact-form-container {
+  max-width: 40.75rem;
+  margin: 0 auto;
+  padding: 0.938rem;
+  border-radius: 5px;
+  /* box-shadow: 0 3px 10px 3px; */
+  /* box-shadow: 0 3px 10px var(--secondary-shadow); */
+  box-shadow: 0px 9px 30px rgba(255, 149, 5, 0.3);
+}
+
+.contact-form-container label {
+  line-height: 2.7em;
+  font-weight: var(--bold-font);
+  color: var(--primary-color);
+}
+
+.contact-form-container textarea {
+  min-height: 6.25rem;
+  font-size: 14px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 1%;
+  bottom: 50%;
+}
+
+.socicon {
+  width: 2rem;
+  height: 2rem;
+}
+
+@media screen and (max-width: 720px) {
+  nav {
+    padding: 1.5rem 1rem;
   }
-  
-  .effectForLink:before{
-    content: '';
-    background: #54b3d6;
-    display: block;
-    position: absolute;
-    
-    bottom: -3px;
-    left: 0;
-    width: 0;
-    height: 3px;
-    transition: all 0.3s ease-in-out;
+  .projects-container {
+    flex-direction: column;
   }
-  
-  .effectForLink:hover {
-   background-position: 0;
+
+  .project-container {
+    width: 20.875rem;
   }
-  
-  .effectForLink:hover::before{
-    width: 100%;
+  .icon {
+    width: 5.875rem;
+    height: 5.25rem;
   }
-  
-  
+  .contact-form-container {
+    max-width: 23.75rem;
+  }
+}

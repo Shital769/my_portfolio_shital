@@ -4,12 +4,15 @@ import { Link } from "react-router-dom";
 import NavBar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
+import logo from "../assets/logo.png";
 
 const TopNav = () => {
   return (
     <NavBar expand="md" className="topNav" id="navbar">
       <Container>
-        <Link to="/">Logo</Link>
+        <Link to="/">
+          <img src={logo} alt="logo" width="170px" />
+        </Link>
         <NavBar.Toggle aria-controls="basic-navbar-nav" />
         <NavbarCollapse id="basic-navbar-nav">
           <Nav className="ms-auto">
