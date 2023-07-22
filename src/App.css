@@ -1,0 +1,87 @@
+.topNav {
+  background: rgb(238 172, 249);
+}
+
+.hero {
+  min-height: 60vh;
+  background: linear-gradient(
+    178.67deg,
+    #7a87fb 1.11%,
+    rgba(15, 39, 254, 0.54) 35.44%,
+    rgba(228, 26, 208, 0.34) 98.87%
+  );
+}
+
+/* .hero img {
+  max-width: 400px;
+} */
+
+.group {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  font-size: 3rem;
+}
+
+.main-layout {
+  min-height: 70vh;
+}
+
+.skills {
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.skill-header {
+  margin-bottom: 1rem;
+}
+
+.skills-wrapper div {
+  padding: 1.25rem;
+}
+
+.icons {
+  font-size: 1.5rem;
+  width: 15rem;
+  height: 11.25rem;
+  display: inline;
+  /* justify-content: space-between; */
+  /* flex-wrap: wrap; */
+}
+
+.icons div {
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 3px 10px rgb(106, 100, 233);
+  /* align-items: center; */
+}
+
+.icons i {
+  font-size: 6.5rem;
+}
+
+i.fa-figma {
+  background: linear-gradient(
+    180deg,
+    #ee1414 0%,
+    #d012d3 38.02%,
+    #120eb6 66.15%,
+    #14b70e 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+}
+
+i.fa-react {
+  color: #508bf2;
+}
+
+i.fa-node {
+  color: #89b087;
+}

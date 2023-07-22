@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "./Footer";
-import { TopNav } from "./TopNav";
+import  TopNav  from "./TopNav";
 
 const Layout = ({ children }) => {
   return (
