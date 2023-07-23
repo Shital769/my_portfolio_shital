@@ -78,9 +78,16 @@ i.fa-figma {
   /* text-fill-color: transparent; */
 }
 
-i.fa-html5:hover {
-  transform: scale(1.5);
+.shitaaal:hover {
+  transform: scale(1.1);
+  /* transform: rotate(-360deg); */
   transition: all 0.9s ease-out;
+  box-shadow: 0px 3px 10px rgb(220, 52, 68);
+  /* transition: width 2s ease-in-out 1s; */
+  margin-left: 13px;
+}
+.slct::first-letter {
+  font-size: 100px;
 }
 
 i.fa-react {

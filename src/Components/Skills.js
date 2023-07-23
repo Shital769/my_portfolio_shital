@@ -10,7 +10,7 @@ const Skills = () => {
 
         <div className="skills-wrapper ">
           <div className=" animate__animated animate__pulse icons ">
-            <div className="rounded-2">
+            <div className="rounded-2 shitaaal">
               <i className="fa-brands fa-html5 text-danger   "></i> HTML
             </div>
             <div>
