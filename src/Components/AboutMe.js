@@ -5,24 +5,28 @@ const AboutMe = () => {
   return (
     <Layout>
       <div className="more-about shadow-lg p-3 mt-5  bg-white rounded ">
-        <h2 className="mb-3" >More About Me</h2>
+        <h2 className="mb-3">More About Me</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolor
-          eos sed, enim tempora, molestias totam sapiente, debitis laudantium
-          veniam iste ea adipisci iusto aut laborum itaque facere. Officia,
-          suscipit omnis inventore aliquam unde minima nisi libero incidunt, ea
-          nesciunt molestias a, dolorum architecto hic. Aut delectus id
-          obcaecati numquam?
+          Highly motivated Full stack developer completed
+          Bachelor in Information Technology major in Web and Mobile development. To advance my
+          full-stack development skills, I have joined an intensive coding
+          Bootcamp to gain hands-on practical skills in JavaScript, ReactJS,
+          NodeJS, MongoDB and more.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. At aperiam
-          illum eveniet. Omnis mollitia reprehenderit temporibus rem, quas
-          provident dolore?
+          With the skills I have gained, I can create web apps and websites from
+          scratch to deployment following SDLC principles. Proficient in several
+          programming languages, including HTML, CSS, JavaScript, Node, Java,
+          Sql, and C#. Adept at working with a variety of frameworks, including
+          React and Node.js, and database management systems, like MySQL and
+          MongoDB.
         </p>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, harum
-          ab, molestias rerum tenetur velit aliquam voluptas architecto
-          laudantium fuga suscipit aliquid maiores debitis excepturi.
+          Able to work well in a team atmosphere and possess excellent
+          communication and problem-solving abilities. Looking for a challenging
+          opportunities as a full-stack developer where I can use my skills,
+          knowledge of technology and enthusiasm to create new solutions and
+          support the accomplishments of a vibrant team.
         </p>
       </div>
     </Layout>
