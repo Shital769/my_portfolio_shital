@@ -132,6 +132,37 @@ const Project = () => {
           </div>
         </div>
       </div>
+      {/* <div className="project">
+        <div className="project_wrapper">
+          <img src={e_commerce_cms} alt="e-com" className="projec_img" />
+          <div className="project_wrapper--bg"></div>
+          <div className="project_description">
+            <h3 className="project_description_title">E-Commerce Clone</h3>
+            <h4 class="project__description--sub-title">
+              Html, Css, Javascript ,NextJs
+            </h4>
+            <p class="project__description--para">
+              A clone of the most recognized search engine with tailwind CSS
+            </p>
+            <div className="project_description_links">
+              <a
+                href="https://www.shitalrayamajhi.com/"
+                className="project_description_link"
+                target="_blank"
+              >
+                <i className="fab fa-github"></i>
+              </a>
+              <a
+                href="https://www.shitalrayamajhi.com/"
+                className="project_description_link"
+                target="_blank"
+              >
+                <i className="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div> */}
     </Layout>
   );
 };
