@@ -117,6 +117,7 @@ i.fa-node {
   transform: scale(1.07);
   filter: blur(5px);
   opacity: 0.7;
+  text-align: center;
 }
 
 
@@ -323,10 +324,10 @@ i.fa-node {
 .project_description {
   position: absolute;
   top: 50%;
-  left: 90px;
+  left: 40px;
   transform: translateY(100%);
   opacity: 0;
-  transition: opacity 300ms, transform 450ms ease;
+  transition: opacity 300ms, transform 460ms ease;
   color: white;
   max-width: 550px;
 }
@@ -376,9 +377,9 @@ i.fa-node {
 
 .project-description {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+  top: 50%;
+  left:40px;
+  /* width: 100%; */
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
@@ -412,9 +413,10 @@ i.fa-node {
 
 }
 
-.project-card:hover .project-description {
-  opacity: 1;
-  transform: translateY(-50%);
+ .project-card:hover .project-description {
+  /* opacity: 1; */
+  transform: translateX(-50%);
+  margin-left: 20px;
 }
 
 .project-pic {
@@ -443,6 +445,7 @@ i.fa-node {
 .project-description-title {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
+  margin-left: 20px;
 }
 
 .project-description-sub-title {
@@ -493,9 +496,9 @@ i.fa-node {
 
 .project-description {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+  top: 50%;
+  left: 40px;
+  /* width: 100%; */
   height: 100%;
   opacity: 0;
   transition: opacity 0.3s;
@@ -543,71 +546,4 @@ i.fa-node {
 
 
 /* modified */
-.project-card {
-  overflow: hidden;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  transition: transform 0.3s;
-}
 
-.project-card:hover {
-  transform: scale(1.05);
-}
-
-.project-pic {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.project-description {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: opacity 0.3s;
-  background-color: #1c1d25;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-  pointer-events: none; /* This prevents the description from blocking clicks */
-}
-
-.project-card.active .project-description {
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.project-description-title {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.project-description-sub-title {
-  font-size: 1rem;
-  color: #888;
-  margin-bottom: 0.5rem;
-}
-
-.project-description-para {
-  font-size: 1rem;
-  margin-bottom: 1rem;
-}
-
-.project-description-links {
-  margin-top: auto;
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.project-description-link {
-  color: #fff;
-  font-size: 1.25rem;
-  transition: color 0.3s;
-}
-
-.project-description-link:hover {
-  color: #ffc107;
-}
