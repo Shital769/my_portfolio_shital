@@ -292,17 +292,17 @@ i.fa-node {
 
 /* project */
 
-.project__img {
+.project_img {
   width: 100%;
   transition: all 600ms ease;
 }
 
-.project:hover .project__img {
+.project:hover .project_img {
   transform: scale(1.07);
   filter: blur(5px);
 }
 
-.project__wrapper {
+.project_wrapper {
   position: relative;
   border-radius: 20px;
   box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.45);
@@ -310,17 +310,17 @@ i.fa-node {
   margin-bottom: 50px;
 }
 
-.project__wrapper:hover .project__description {
+.project_wrapper:hover .project_description {
   opacity: 1;
   transform: translateY(-50%);
 }
 
-.project__wrapper:hover .project__img {
+.project_wrapper:hover .project_img {
   transform: scale(1.07);
   filter: blur(5px);
 }
 
-.project__description {
+.project_description {
   position: absolute;
   top: 50%;
   left: 90px;
@@ -331,11 +331,11 @@ i.fa-node {
   max-width: 550px;
 }
 
-.project__wrapper:hover .project__wrapper--bg {
+.project_wrapper:hover .project_wrapper--bg {
   opacity: 0.7;
 }
 
-.project__wrapper--bg {
+.project_wrapper--bg {
   position: absolute;
   top: 0;
   left: 0;
@@ -346,19 +346,268 @@ i.fa-node {
   transition: all 450ms ease;
 }
 
-.project__description--title {
+.project_description--title {
   font-size: 40px;
 }
-.project__description--sub-title {
+.project_description--sub-title {
   margin-top: 8px;
 }
 
-.project__description--link {
+.project_description--links {
   color: white;
   font-size: 20px;
   margin-right: 16px;
 }
 
-.project__description--para {
+.project_description--para {
   margin: 16px 0;
+}
+
+/* addes css */
+.project-card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-description {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.project-card:hover .project-description {
+  opacity: 1;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+/* added */
+.project-card {
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  fill: blur(5px);
+
+}
+
+.project-card:hover .project-description {
+  opacity: 1;
+  transform: translateY(-50%);
+}
+
+.project-pic {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.project-description {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.8); */
+  background-color: #1c1d25;
+  color: white;
+  padding: 15px;
+  opacity: 1;
+  transition: all  0.3s ease;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.project-description-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-description-sub-title {
+  font-size: 1rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+
+.project-description-para {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project-description-links {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.project-description-link {
+  color: #fff;
+  font-size: 1.25rem;
+  transition: color 0.3s;
+}
+
+.project-description-link:hover {
+  color: #ffc107;
+}
+
+/* latest css */
+.project-card {
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-pic {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-description {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s;
+  background-color: #1c1d25;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.project-card:hover .project-description {
+  opacity: 1;
+}
+
+.project-description-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-description-sub-title {
+  font-size: 1rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+
+.project-description-para {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project-description-links {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.project-description-link {
+  color: #fff;
+  font-size: 1.25rem;
+  transition: color 0.3s;
+}
+
+.project-description-link:hover {
+  color: #ffc107;
+}
+
+
+/* modified */
+.project-card {
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-pic {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-description {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s;
+  background-color: #1c1d25;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  pointer-events: none; /* This prevents the description from blocking clicks */
+}
+
+.project-card.active .project-description {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.project-description-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-description-sub-title {
+  font-size: 1rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+
+.project-description-para {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project-description-links {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.project-description-link {
+  color: #fff;
+  font-size: 1.25rem;
+  transition: color 0.3s;
+}
+
+.project-description-link:hover {
+  color: #ffc107;
 }

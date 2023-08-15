@@ -28,6 +28,9 @@ const TopNav = () => {
             <Link className="nav-link" to="/contact">
               Contact
             </Link>
+            <Link className="nav-link" to="/samples">
+              Sample
+            </Link>
           </Nav>
         </NavbarCollapse>
       </Container>
