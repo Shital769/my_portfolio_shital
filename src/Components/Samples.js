@@ -131,12 +131,62 @@ const ProjectsPage = () => {
       githubLink: 'https://www.shitalrayamajhi.com/',
     },
     {
-      // imageSrc: e_commerce_cms,
+      imageSrc: e_commerce_cms,
       title: 'E-Commerce CMS',
       subTitle: 'Html, Css, Javascript, NextJs',
       description: 'A clone of the most recognized search engine with tailwind CSS',
       githubLink: 'https://www.shitalrayamajhi.com/',
     },
+    {
+      imageSrc: e_commerce_cms,
+      title: 'E-Commerce CMS',
+      subTitle: 'Html, Css, Javascript, NextJs',
+      description: 'A clone of the most recognized search engine with tailwind CSS',
+      githubLink: 'https://www.shitalrayamajhi.com/',
+    },
+    {
+      imageSrc: e_commerce_cms,
+      title: 'E-Commerce CMS',
+      subTitle: 'Html, Css, Javascript, NextJs',
+      description: 'A clone of the most recognized search engine with tailwind CSS',
+      githubLink: 'https://www.shitalrayamajhi.com/',
+    },
+    {
+      imageSrc: e_commerce_cms,
+      title: 'E-Commerce CMS',
+      subTitle: 'Html, Css, Javascript, NextJs',
+      description: 'A clone of the most recognized search engine with tailwind CSS',
+      githubLink: 'https://www.shitalrayamajhi.com/',
+    },
+    {
+      imageSrc: e_commerce_cms,
+      title: 'E-Commerce CMS',
+      subTitle: 'Html, Css, Javascript, NextJs',
+      description: 'A clone of the most recognized search engine with tailwind CSS',
+      githubLink: 'https://www.shitalrayamajhi.com/',
+    },
+    {
+      imageSrc: e_commerce_cms,
+      title: 'E-Commerce CMS',
+      subTitle: 'Html, Css, Javascript, NextJs',
+      description: 'A clone of the most recognized search engine with tailwind CSS',
+      githubLink: 'https://www.shitalrayamajhi.com/',
+    },
+    {
+      imageSrc: e_commerce_cms,
+      title: 'E-Commerce CMS',
+      subTitle: 'Html, Css, Javascript, NextJs',
+      description: 'A clone of the most recognized search engine with tailwind CSS',
+      githubLink: 'https://www.shitalrayamajhi.com/',
+    },
+    {
+      imageSrc: e_commerce_cms,
+      title: 'E-Commerce CMS',
+      subTitle: 'Html, Css, Javascript, NextJs',
+      description: 'A clone of the most recognized search engine with tailwind CSS',
+      githubLink: 'https://www.shitalrayamajhi.com/',
+    },
+    
     // Add more project objects as needed
     
     // Repeat the above object structure for each project

@@ -61,7 +61,7 @@ const ProjectCard = ({ imageSrc, title, subTitle, description, githubLink }) => 
       onMouseLeave={toggleDescription}
     >
       <img src={imageSrc} alt={title} className="project-pic img-fluid" />
-      <div className="project-description position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center text-white p-3 opacity-0 transition-opacity bg-dark" style={{ zIndex: 1 }}>
+      <div className="project-description position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center  text-white p-3 opacity-1  ms-5 me-0 transition-opacity bg-dark" style={{ zIndex: 1 }}>
         <h3 className="project-description-title">{title}</h3>
         <h4 className="project-description-sub-title">{subTitle}</h4>
         <p className="project-description-para">{description}</p>

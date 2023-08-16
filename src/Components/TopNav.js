@@ -31,6 +31,9 @@ const TopNav = () => {
             <Link className="nav-link" to="/samples">
               Sample
             </Link>
+            <Link className="nav-link" to="/practice">
+              Practice
+            </Link>
           </Nav>
         </NavbarCollapse>
       </Container>
