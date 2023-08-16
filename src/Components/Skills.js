@@ -13,20 +13,20 @@ const Skills = () => {
             <div className="rounded-2 shitaaal">
               <i className="fa-brands fa-html5 text-danger   "></i> HTML
             </div>
-            <div>
+            <div className="rounded-2 shitaaal">
               <i className="fa-brands fa-css3-alt text-primary "></i> CSS
             </div>
-            <div>
+            <div className="rounded-2 shitaaal">
               <i className="fa-brands fa-square-js text-warning "></i>{" "}
               JavaScript
             </div>
-            <div>
+            <div className="rounded-2 shitaaal">
               <i className="fa-brands fa-figma"></i>Figma
             </div>
-            <div>
+            <div className="rounded-2 shitaaal">
               <i className="fa-brands fa-react"></i>React
             </div>
-            <div>
+            <div className="rounded-2 shitaaal">
               <i className="fa-brands fa-node"></i>React
             </div>
           </div>

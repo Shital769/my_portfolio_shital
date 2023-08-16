@@ -48,7 +48,7 @@ const Project = () => {
                 </div>
               </div>
               <a
-                href="#"
+                href="https://github.com/Shital769"
                 target="_blank"
                 className="project-link  effectForLink"
               >
