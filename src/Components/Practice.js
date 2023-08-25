@@ -31,12 +31,16 @@ const Practice = () => {
       liveDemoLink: "https://www.shitalrayamajhi.com/",
       imageSrc: e_commerce_cms, // Replace with your image source
     },
-  
 
     // Add more project objects here
   ];
   return (
     <>
+      <div className="projects-container row">
+        {projects.map((project, index) => (
+          <PracticeProjectCard key={index} project={project} />
+        ))}
+      </div>
       <div className="projects-container row">
         {projects.map((project, index) => (
           <PracticeProjectCard key={index} project={project} />
